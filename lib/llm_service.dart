@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 class LLMService {
-  final String _baseUrl = 'https://localhost:8080';  // Replace with your backend URL
+  final String _baseUrl = 'https://localhost:8080'; 
   WebSocketChannel? _channel;
 
   // Authenticate and obtain JWT token
