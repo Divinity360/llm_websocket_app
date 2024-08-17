@@ -25,7 +25,7 @@ class LLMService {
 
   // Connect to the WebSocket with the JWT token
   void connectToWebSocket(String token) {
-    final url = 'ws://localhost/ws/llm/?token=$token';  // Replace with your WebSocket URL
+    final url = 'ws://localhost/ws/llm/?token=$token'; 
     _channel = WebSocketChannel.connect(Uri.parse(url));
   }
 
